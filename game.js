@@ -44,7 +44,7 @@ bot.on('callback_query', function onCallbackQuery(callbackQuery) {
 
 // Render the HTML game
 app.get('/', function requestListener(req, res) {
-  res.sendFile(path.join(__dirname, 'game.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Bind server to port
