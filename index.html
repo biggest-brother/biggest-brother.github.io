@@ -1,4 +1,6 @@
 <!-- Game example taken from w3schools (https://www.w3schools.com/graphics/game_intro.asp) -->
+<!-- this.canvas.width = 480; -->
+<!-- this.canvas.height = 270; -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -35,8 +37,6 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        <!-- this.canvas.width = 480; -->
-        <!-- this.canvas.height = 270; -->
         this.canvas.width = 300;
         this.canvas.height = 270;
         this.context = this.canvas.getContext("2d");
